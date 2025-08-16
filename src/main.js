@@ -1,1 +1,5 @@
-console.log('Ready for Day 1.');
+document.getElementById('btn')?.addEventListener(
+    'click',() => {
+        console.log("Button clicked!");
+    }
+);

@@ -24,7 +24,9 @@ body {
 
 img, svg { max-width: 100%; display: block; }
 
-.container { width: min(100% - 2rem, 960px); margin-inline: auto; }
+.container { 
+  width: min(100% - 2rem, 960px); 
+  margin-inline: auto; }
 
 .skip-link {
   position: absolute; left: -9999px; top: 0;
@@ -34,14 +36,20 @@ img, svg { max-width: 100%; display: block; }
   padding: 8px 12px;
 }
 
-.site-header, .site-footer { padding: calc(var(--space) * 1.5) 0; }
+.site-header, 
+.site-footer { 
+  padding-block: 24px; }
 
 .logo { font-size: 1.25rem; margin: 0; }
 
-.hero { padding: 56px 0; }
+.hero { padding-block: 56px; }
 .hero h2 { margin: 0 0 8px; font-size: 2rem; }
 .hero p { color: var(--muted); margin: 0 0 16px; }
-
+.hero-lead {
+  max-width: 60ch;
+  color: var(--muted);
+  margin: 8px 0 16px;
+}
 .btn {
   background: var(--brand);
   color: #081018;
@@ -50,8 +58,22 @@ img, svg { max-width: 100%; display: block; }
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
+  transition: background-color 160ms ease, box-shadow 160ms ease, transform 60ms ease;
 }
-.btn:focus-visible { outline: 3px solid #fff; outline-offset: 2px; }
+
+.btn:hover {
+background: #3a6fdc;
+box-shadow: 0 4px 16px rgba(79,140,255,0.25);
+}
+.btn:active {
+background: #2f5bb5;
+box-shadow: 0 2px 8px rgba(79,140,255,0.2);
+transform: translateY(1px);
+}
+.btn:focus-visible {
+outline: 3px solid #ffffff;
+outline-offset: 2px;
+}
 
 .features { padding: 32px 0 56px; }
 
@@ -61,6 +83,8 @@ img, svg { max-width: 100%; display: block; }
   gap: 16px;
 }
 @media (min-width: 720px) {
+  .hero { padding-block: 80px;}
+  .features { padding-block: 40px 80px;}
   .grid { grid-template-columns: repeat(3, 1fr); }
 }
 
