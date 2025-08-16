@@ -1,15 +1,16 @@
 **Live Demo:** https://krish-script.github.io/fe-starter-landing/  
 
-## Today’s Progress(Day 1)(14/08/2025)
+## Day 1 Progress(14/08/2025)
 - Built semantic HTML structure (header, hero, features, footer)
 - Responsive single-column layout with CSS Grid
 - Added skip link for accessibility
 
-## Done
-Set up repo and added semantic layout (header, hero, features, footer)
-Responsive grid for features; added Skip to content link
-Published initial files to GitHub
+## Day 2 progress(10/08/2025)
+- Added hover/active/focus states for primary button
+- Unified containers and spacing; improved hero readability
+- Implemented accessible mobile nav (toggle, aria-expanded, Esc to close)
 
+Verified keyboard navigation and heading order
 ## Tech Stack
 - HTML5, CSS3 (Grid, Flexbox), JS
 
