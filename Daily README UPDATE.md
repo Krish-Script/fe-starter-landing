@@ -5,6 +5,11 @@
 - Responsive single-column layout with CSS Grid
 - Added skip link for accessibility
 
+## Done
+Set up repo and added semantic layout (header, hero, features, footer)
+Responsive grid for features; added Skip to content link
+Published initial files to GitHub
+
 ## Tech Stack
 - HTML5, CSS3 (Grid, Flexbox), JS
 
