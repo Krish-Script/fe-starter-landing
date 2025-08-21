@@ -143,7 +143,7 @@ a {
   }
 }
 
-@media (min-width:720px) {
+@media (min-width: 720px) {
   .site-nav {
     display: flex;
     gap: 24px;
@@ -249,7 +249,10 @@ a {
   border-radius: 8px;
   font-weight: 600;
   cursor: pointer;
-  transition: background-color 0.15s ease, box-shadow 0.15s ease, transform 0.05s ease;
+  transition:
+    background-color 0.15s ease,
+    box-shadow 0.15s ease,
+    transform 0.05s ease;
 }
 
 .btn:hover {
@@ -267,7 +270,6 @@ a {
   outline: 3px solid #fff;
   outline-offset: 2px;
 }
-
 
 /* Footer */
 .site-footer {
@@ -298,7 +300,9 @@ a {
 .card:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
   transform: translateY(-4px);
-  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  transition:
+    box-shadow 0.2s ease,
+    transform 0.2s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
