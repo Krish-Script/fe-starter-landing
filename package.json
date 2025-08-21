@@ -4,9 +4,10 @@
   "description": "Front-end portfolio kickoff: a modern, responsive landing page focused on clean HTML/CSS, accessible UI, and fast deployment.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix",
+    "lint": "eslint . --ext .js",
     "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint:fix": "eslint . --fix",
     "check": "eslint.--ext.js,.jsx,.ts,.tsx && prettier --check .",
     "prepare": "husky"
   },
