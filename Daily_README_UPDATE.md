@@ -36,6 +36,14 @@
 - Added keyboard focus styles to theme toggle and all buttons for better navigation.
 - Verified keyboard and screen reader usability for interactive elements.
 
+## Day 6 progress (07/09/2025)
+
+- Added linting and formatting scripts (eslint and prettier) for consistent code style.
+- Set up Husky pre-commit hooks with lint-staged to automatically check and fix code on every commit.
+- Updated CI pipeline to run lint and format checks on push and pull requests.
+- These improvements maintain code hygiene and reduce manual cleanup.
+- Workflow now blocks commits with unresolved errors, ensuring a higher-quality codebase.
+
 ## Tech Stack
 
 - HTML5, CSS3 (Grid, Flexbox), Vanilla JS
