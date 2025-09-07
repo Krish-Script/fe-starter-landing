@@ -1,0 +1,15 @@
+/* Container and layout styles */
+.container {
+  width: min(100% - 2rem, var(--container));
+  margin-inline: auto;
+}
+.grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 720px) {
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

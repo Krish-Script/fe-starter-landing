@@ -16,12 +16,18 @@
 
 ## Day 3 progress(21/08/2025)
 
-- Polished desktop navigation: inline links on wide screens, hidden hamburger toggle.
-- Added keyboard focus and active styles to nav links for usability.
-- Enabled smooth scrolling for all in-page anchor links.
-- Added subtle hover effects on feature cards with reduced motion support.
-- Verified button contrast for better accessibility.
-- Set up Continuous Integration with GitHub Actions running lint and format checks automatically.
+- Polished desktop navigation: inline links on wide screens, hidden hamburger toggle
+- Added keyboard focus and active styles to nav links for usability
+- Enabled smooth scrolling for all in-page anchor links
+- Added subtle hover effects on feature cards with reduced motion support
+- Verified button contrast for better accessibility
+- Set up Continuous Integration with GitHub Actions running lint and format checks automatically
+
+## Day 4 progress (07/09/2025)
+
+- Split styles into dedicated component files: button.css, card.css, container.css
+- Updated HTML structure so all buttons use .btn, feature sections use .card, and layout blocks use .container
+- Began documenting a simple component library for future reuse
 
 ## Tech Stack
 
