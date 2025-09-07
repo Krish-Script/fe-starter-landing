@@ -9,7 +9,7 @@
     "format:check": "prettier --check .",
     "lint:fix": "eslint . --fix",
     "check": "eslint.--ext.js,.jsx,.ts,.tsx && prettier --check .",
-    "prepare": "husky"
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
