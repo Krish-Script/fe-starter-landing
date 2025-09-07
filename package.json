@@ -4,7 +4,7 @@
   "description": "Front-end portfolio kickoff: a modern, responsive landing page focused on clean HTML/CSS, accessible UI, and fast deployment.",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint . --ext .js",
+    "lint": "eslint . --ext .js,html,css",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "lint:fix": "eslint . --fix",
@@ -28,7 +28,7 @@
     "eslint": "^9.33.0",
     "globals": "^16.3.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.5",
+    "lint-staged": "^16.1.6",
     "prettier": "^3.6.2"
   },
   "dependencies": {
@@ -102,7 +102,9 @@
   },
   "lint-staged": {
     ".{js,jsx,ts,tsx,css,md,html}": [
-      "prettier --write"
+      "eslint --fix",
+      "prettier --write",
+      "git add"
     ],
     ".js": [
       "eslint --fix"
