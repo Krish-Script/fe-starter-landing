@@ -1,5 +1,3 @@
-**Live Demo:** https://krish-script.github.io/fe-starter-landing/
-
 ## Day 1 Progress(14/08/2025)
 
 - Built semantic HTML structure (header, hero, features, footer)
@@ -29,6 +27,15 @@
 - Updated HTML structure so all buttons use .btn, feature sections use .card, and layout blocks use .container
 - Began documenting a simple component library for future reuse
 
+## Day 5 progress (07/09/2025)
+
+- Added icons to buttons and feature cards for clearer UI signals.
+- Implemented light/dark theme toggle using CSS variables and JavaScript.
+- Ensured strong color contrast across both themes for readability.
+- Made icons accessible by hiding decorative ones from screen readers.
+- Added keyboard focus styles to theme toggle and all buttons for better navigation.
+- Verified keyboard and screen reader usability for interactive elements.
+
 ## Tech Stack
 
 - HTML5, CSS3 (Grid, Flexbox), Vanilla JS
@@ -38,3 +45,5 @@
 
 1. Clone this repo
 2. Open `index.html` in your browser
+
+**Live Demo:** https://krish-script.github.io/fe-starter-landing/

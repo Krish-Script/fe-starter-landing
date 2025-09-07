@@ -237,3 +237,31 @@ a {
     scroll-behavior: auto !important;
   }
 }
+
+/* Theme Toggle */
+:root {
+  --background: #f6f8fc;
+  --text: #181828;
+  --card: #fff;
+  --brand: #436dde;
+}
+.dark-theme {
+  --background: #181828;
+  --text: #f6f8fc;
+  --card: #23243a;
+  --brand: #6daaff;
+}
+body {
+  background: var(--background);
+  color: var(--text);
+}
+.card {
+  background: var(--card);
+}
+.btn {
+  background: var(--brand);
+}
+.btn:focus-visible {
+  outline: 3px solid var(--brand);
+  outline-offset: 2px;
+}
